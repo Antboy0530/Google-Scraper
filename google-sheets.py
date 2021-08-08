@@ -9,7 +9,7 @@ PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 driver.get("https://www.google.com/search?q=")
 
-search_items = ["Alexandra daddario", "David Dobrik", "Lebron James", "Steve Harvey", "Ryan Garcia", "Joe Rogan", "Dana white", "Conor Mcgregor"]
+search_items = ["Alexandra daddario", "Zac Efron", "Lebron James", "Steve Harvey", "Ryan Garcia", "Joe Rogan", "Dana white", "Conor Mcgregor"]
 search = driver.find_element_by_name("q")
 
 file = open('info2.csv', 'w', encoding = "utf-8")
